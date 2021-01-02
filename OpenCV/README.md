@@ -12,7 +12,7 @@ The final project was an adaption of the code in the course to use face detectio
 Learn how to use computer vision for further robotics projects with Python and ROS with the support of the OpenCV library.
 
 ## Technologies Used
-<img src="/images/OpenCV.png" height="200"> <img src="/images/numpy.png" height="200"> <img src="/images/matplotlib.jpeg" height="200">
+<img src="/images/OpenCV.png" height="100"> <img src="/images/numpy.png" height="100"> <img src="/images/matplotlib.jpeg" height="100">
 
 
 
