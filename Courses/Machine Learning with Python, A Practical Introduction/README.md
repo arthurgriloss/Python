@@ -3,6 +3,10 @@
 This folder contains some code developed as exercise during the course (ML0101EN) Machine Learning with Python: A Practical Introduction by IBM at edX.
 The codes developed here were **not** developed by me from beginning to end, but completed with the intention of fix the knowledge adquired and developed.
 
+### Expected content
+<img src="/images/ML IBM/4.png" height="150"> <img src="/images/ML IBM/3.png" height="150"> <img src="/images/ML IBM/2.png" height="150">
+<img src="/images/ML IBM/1.png" height="150">
+
 ## Motivation
 Learn how to solve machine learning problems with python for data science further projects with the support of some python libraries as pandas and scikit learn.
 
