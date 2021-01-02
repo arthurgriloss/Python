@@ -1,6 +1,7 @@
   
 # This code is an exercise done at module 5 as part of the course (ML0101EN) Machine Learning with Python_A Practical Introduction by IBM.
-# The intention of the exercise is to create a recommendation system for users based on their own preview rated movies.
+# The intention of the exercise is to format feature information, create new usefull features, and create a recommendation system 
+# for users based on their own preview rated movies.
 
 import zipfile
 import pandas as pd
