@@ -1,3 +1,8 @@
+# This code is an exercise done at module 2 as part of the course (DA0101EN) Analyzing Data with Python by IBM.
+# The intention of the module is to teach data wrangling and data feature by cleaning undesired data, normalizing data, and creating new features for futher analysis.
+
+# Some lines of code are commented to avoid several not desired plots or visualization issues.
+
 import pandas as pd
 import numpy as np
 import matplotlib.pylab as plt
