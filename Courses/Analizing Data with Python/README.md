@@ -3,7 +3,7 @@
 This folder contains some code developed as exercise during the course (DA0101EN) Analyzing Data with Python by IBM at edX.
 The codes developed here were **not** developed by me from beginning to end, but completed with the intention of fix the knowledge adquired and developed.
 
-### Expected results
+### Expected content
 <img src="/images/DA IBM/1.png" height="200"> <img src="/images/DA IBM/2.png" height="200"> <img src="/images/DA IBM/3.png" height="200"><img src="/images/DA IBM/4.png" height="200"> <img src="/images/DA IBM/5.png" height="200">
 
 ## Motivation
