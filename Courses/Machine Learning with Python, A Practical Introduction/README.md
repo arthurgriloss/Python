@@ -1,6 +1,6 @@
 # Analizing Data with Python
 ## Overview
-This folder contains some code developed as exercise during the course (ML0101EN) Machine Learning with Python_A Practical Introduction by IBM at edX.
+This folder contains some code developed as exercise during the course (ML0101EN) Machine Learning with Python: A Practical Introduction by IBM at edX.
 The codes developed here were **not** developed by me from beginning to end, but completed with the intention of fix the knowledge adquired and developed.
 
 ## Motivation
