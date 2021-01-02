@@ -1,3 +1,6 @@
+# This code is an exercise done at module 1 as part of the course (DA0101EN) Analyzing Data with Python by IBM.
+# The intention of the module is to teach how to import, preview and format data.
+
 import pandas as pd
 import numpy as np
 
