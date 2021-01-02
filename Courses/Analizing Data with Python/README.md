@@ -1,6 +1,6 @@
 # Analizing Data with Python
 ## Overview
-This folder contains some code developed as exercise during the course (DA0101EN) Analyzing Data with Python by IBM at coursera.
+This folder contains some code developed as exercise during the course (DA0101EN) Analyzing Data with Python by IBM at edX.
 The codes developed here were **not** developed by me from beginning to end, but completed with the intention of fix the knowledge adquired and developed.
 
 ## Motivation
