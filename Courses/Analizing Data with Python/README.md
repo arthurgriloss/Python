@@ -4,7 +4,8 @@ This folder contains some code developed as exercise during the course (DA0101EN
 The codes developed here were **not** developed by me from beginning to end, but completed with the intention of fix the knowledge adquired and developed.
 
 ## Motivation
-Learn how to code and visualize data with python for data science further projects with the support of pandas and matplotlib libraries.
+Learn how to code and visualize data with python for data science further projects with the support of some python libraries as pandas and matplotlib.
+
 Certification link:
 https://courses.edx.org/certificates/e57aab6bf4934f42bed98eed52d64244
 
