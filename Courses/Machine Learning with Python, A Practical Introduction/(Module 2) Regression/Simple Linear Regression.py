@@ -1,5 +1,5 @@
 # This code is an exercise done at module 2 as part of the course (ML0101EN) Machine Learning with Python_A Practical Introduction by IBM.
-# The intention of the module is to teach how to solve a Simple Linear Regression problem and introduce the traning/test split method to evaluate the model
+# The intention of the exercise is to teach how to solve a Simple Linear Regression problem and introduce the traning/test split method to evaluate the model
 
 # Some lines of code are commented to avoid several not desired plots or visualization issues.
 
