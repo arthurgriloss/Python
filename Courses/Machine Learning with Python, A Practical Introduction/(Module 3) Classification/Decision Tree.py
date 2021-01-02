@@ -1,6 +1,6 @@
 # This code is an exercise done at module 3 as part of the course (ML0101EN) Machine Learning with Python_A Practical Introduction by IBM.
 # The intention of the exercise is to teach how to format categorical features to binary/discrete values and 
-# how solve a classification problem with the decision tree method.
+# how to solve a classification problem with the decision tree method.
 
 import matplotlib.pyplot as plt
 import numpy as np
