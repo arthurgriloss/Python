@@ -1,5 +1,6 @@
 # This code is an exercise done at module 3 as part of the course (ML0101EN) Machine Learning with Python_A Practical Introduction by IBM.
-# The intention of the exercise is to introduce confusion matrix and to teach how to solve a classification problem with the Logistic Regression method.
+# The intention of the exercise is to introduce confusion matrix, to teach how to solve a classification problem with the Logistic Regression method,
+# and how to evaluate the model using logloss.
 
 import pandas as pd
 import numpy as np
