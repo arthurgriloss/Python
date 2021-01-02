@@ -11,7 +11,7 @@ https://courses.edx.org/certificates/e57aab6bf4934f42bed98eed52d64244
 
 ## Technologies Used
 <img src="/images/python.png" height="100"> <img src="/images/matplotlib.jpeg" height="100"> <img src="/images/pandas.png" height="100"> <img src="/images/numpy.png" height="100">
- <img src="/images/scipy.png" height="100">  <img src="/images/seaborn.png" height="100">
+ <img src="/images/scipy.png" height="100">  <img src="/images/seaborn.png" height="100"> <img src="/images/sklearn.png" height="100">
 
 
 
