@@ -1,8 +1,6 @@
 # This code is an exercise done at module 2 as part of the course (ML0101EN) Machine Learning with Python_A Practical Introduction by IBM.
 # The intention of the excercise is to teach how to solve a Multiple Linear Regression problem.
 
-# Some lines of code are commented to avoid several not desired plots or visualization issues.
-
 import matplotlib.pyplot as plt
 import pandas as pd
 import numpy as np
