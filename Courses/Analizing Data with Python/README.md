@@ -7,9 +7,8 @@ The codes developed here were **not** developed by me from beginning to end, but
 Learn how to code and visualize data with python for data science further projects with the support of pandas and matplotlib libraries.
 
 ## Technologies Used
-
-![python_logo](images/python.png) 
-
+![python_logo](Python/images/python.png)  ![matplotlib_logo](Python/images/matplotlib.jpeg)
 
 
-![matplotlib_logo](images/matplotlib.jpeg)
+
+
