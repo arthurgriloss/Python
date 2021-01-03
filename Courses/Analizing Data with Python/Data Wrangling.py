@@ -7,7 +7,7 @@ import pandas as pd
 import numpy as np
 import matplotlib.pylab as plt
 import matplotlib as plt
-from matplotlib.pyplot import pyplot
+from matplotlib import pyplot
 
 url = 'https://archive.ics.uci.edu/ml/machine-learning-databases/autos/imports-85.data'
 headers = ["symboling","normalized-losses","make","fuel-type","aspiration", "num-of-doors","body-style",
