@@ -6,7 +6,7 @@ This folder contains a small popular machine learning project about wine classif
 <img src="/images/ML projects/wine1.png" height="200"> <img src="/images/ML projects/wine2.png" height="200">
 
 ## Motivation
-Implement some self insights about the data and explore machine learning and data science techniques to achieve an accurate wine classifier model.
+Implement some self-insights about the data and explore machine learning and data science techniques to achieve an accurate wine classifier model.
 
 
 ## Technologies Used
