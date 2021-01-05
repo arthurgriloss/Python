@@ -7,7 +7,7 @@ The features are described in the student.txt file located at the folder.
 The data contains features that may be relevent or not to the success of the student.
 
 Due to the number of features and low correlation between the predictor variable and target variable would be complicate to evaluate feature by feature until find the
-most relevant ones. The code automates the search passing a grid search to the best polynomial degree and parameters that predicts the GPA with the lower error.
+most relevant ones. The code automates it by passing a grid search to find the best polynomial degree and parameters that predicts the GPA with the lower error.
 
 
 ## Technologies Used
