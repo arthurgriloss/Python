@@ -156,9 +156,10 @@ def main():
 
     while(True):
 
-        clock.tick(10)
+        clock.tick(60)
         snake.handle_keys()
         drawGrid(surface)
+
         snake.move()
 
         if snake.get_head_position() == food.position:
