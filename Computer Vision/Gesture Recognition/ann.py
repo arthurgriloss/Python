@@ -17,8 +17,7 @@ class ArtificialNeuralNetwork(nn.Module):
     def forward(self, x):
         x = self.input_to_hl(x)
         x = self.hl_to_hl(x)
-        x = self.activation_fun1(x)
         x = self.hl_to_output(x)
-        y_pred = self.activation_fun2(x)
-        return y_pred
+        x = self.activation_fun2(x)
+        return x
 

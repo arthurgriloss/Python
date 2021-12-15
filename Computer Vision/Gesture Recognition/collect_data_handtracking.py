@@ -83,7 +83,7 @@ for i in range(no_gesture):
 #########################################################################################
 dataset_tip_mcp = np.array(["thumb", "index", "middle", "ring", "pinky"]) # label for tip-mcp
 dataset_tip_distance = np.array(["t_i", "t_m", "t_r", "t_p", "i_m", "i_r", "i_p", "m_r", "m_p", "r_p"]) # label for tip-tip
-dataset = np.hstack([dataset_tip_distance, "label"])# select dataset label
+dataset = np.hstack([dataset_tip_distance, np.array(["label"])])# select dataset label
 epocs = 2000
 
 p_time = 0  # start previous time = 0
@@ -165,8 +165,8 @@ df = pd.DataFrame(dataset[1:, :], columns=dataset[0, :]).to_csv("hand_data.csv",
 X = dataset[1:, :-1].astype(float) # remove string column with the name of the variable
 
 # NORMALIZE THE INPUT VALUES
-for i in range(len(X[0])):
-    X[i] = normalization(X[i])
+# for i in range(len(X[0])):
+#     X[i] = normalization(X[i])
 
 label = dataset[1:, -1] # colect label column in the dataset
 Y = np.zeros([len(label), len(gesture_label)]) # create n x m zero matrix to save as true the column related to the correct value and false otherwise
