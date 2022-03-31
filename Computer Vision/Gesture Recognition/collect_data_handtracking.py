@@ -83,7 +83,7 @@ for i in range(no_gesture):
 #########################################################################################
 dataset_tip_mcp = np.array(["thumb", "index", "middle", "ring", "pinky"]) # label for tip-mcp
 dataset_tip_distance = np.array(["t_i", "t_m", "t_r", "t_p", "i_m", "i_r", "i_p", "m_r", "m_p", "r_p"]) # label for tip-tip
-dataset = np.hstack([dataset_tip_distance, np.array(["label"])])# select dataset label
+dataset = np.hstack([dataset_tip_distance, dataset_tip_mcp, np.array(["label"])])# select dataset label
 epocs = 2000
 
 p_time = 0  # start previous time = 0
@@ -147,8 +147,9 @@ for i in range(no_gesture):
         cv2.putText(img, "RECORDING...", (10, 30), cv2.FONT_HERSHEY_PLAIN, 2, (0, 0, 255), 3)
 
         ###################################################################################
-        data = finger_tip_distance(lm_list)
-
+        data0 = finger_tip_distance(lm_list)
+        data1 = tip_mcp_distance(lm_list)
+        data = np.hstack([data0, data1])
         # SAVE DATA JUST IF IT IS NOT NONE TYPE
         if data is None:
             pass
@@ -181,7 +182,7 @@ output_layer = torch.from_numpy(Y).float().to(device)   # set the output data as
 print(len(gesture_label))
 ann = ArtificialNeuralNetwork(len(X[0]), len(Y[0])).to(device) # start ann
 loss_func = nn.MSELoss()    # select loss function
-opt = SGD(ann.parameters(), lr=0.001)   #select optm function
+opt = SGD(ann.parameters(), lr=0.01)   #select optm function
 loss_history = []   # empty list to store loss value
 
 # Start training during n epocs
@@ -214,7 +215,9 @@ while True:
     # IF RECORDING LM VALUES PASS THROUGH THE TRAINED NN AND PREDICT THE GESTURE
     if (len(lm_list) != 0):
         ###################################################################################
-        data = finger_tip_distance(lm_list)
+        data0 = finger_tip_distance(lm_list)
+        data1 = tip_mcp_distance(lm_list)
+        data = np.hstack([data0, data1])
         data = torch.from_numpy(data).float().to(device)
         predict = ann(data).cpu().detach().numpy()
         val = max(predict)
