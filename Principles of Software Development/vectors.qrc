@@ -1,8 +1,0 @@
-<RCC>
-  <qresource prefix="expenses">
-    <file>expenses.png</file>
-  </qresource>
-  <qresource prefix="arrow">
-    <file>left-arrow.png</file>
-  </qresource>
-</RCC>
